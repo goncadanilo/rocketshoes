@@ -92,7 +92,18 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
     amount,
   }: UpdateProductAmount) => {
     try {
-      // TODO
+      const productInCart = cart.find(product => product.id === productId);
+      
+      if(productInCart) {
+        const { data: productStock } = await api.get<Stock>(`/stock/${productId}`);
+        
+        productInCart.amount = amount;
+
+        const newCart = [...cart];
+
+        localStorage.setItem('@RocketShoes:cart', JSON.stringify(newCart));
+        setCart(newCart)
+      }
     } catch {
       // TODO
     }
