@@ -44,7 +44,7 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
           return;
         }
 
-        productInCart.amount++;
+        productInCart.amount += 1;
 
         const newCart = [...cart];
 
