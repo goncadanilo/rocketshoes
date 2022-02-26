@@ -42,7 +42,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Styled Components](https://www.styled-components.com/)
 - [Axios](https://axios-http.com/docs/intro)
-- [JSON Server](https://github.com/typicode/json-server)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 
 ## 🎯 Sobre o Desafio
