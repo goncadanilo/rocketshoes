@@ -1,5 +1,5 @@
 <h1 align="center">
- ⚛ Desafio: Criando um hook de carrinho de compras
+ :shopping_cart: Desafio: Criando um hook de carrinho de compras
 </h1>
 <h3 align="center">
   🚀 Ignite | Trilha ReactJS
